@@ -1,0 +1,30 @@
+{
+	"name": "support-flipper",
+	"version": "1.2.5",
+	"description": "Discord support bot.",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Coin-Flipper/Support-Flipper.git"
+	},
+	"author": "ThatsLiamS",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Coin-Flipper/Support-Flipper/issues"
+	},
+	"homepage": "https://github.com/Coin-Flipper/Support-Flipper#readme",
+	"dependencies": {
+		"ci": "^2.1.1",
+		"discord.js": "^12.5.3",
+		"discord.js-ghost-ping": "^1.3.5",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"topgg-autoposter": "^2.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.31.0"
+	}
+}
