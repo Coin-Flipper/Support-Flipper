@@ -1,13 +1,9 @@
-const Discord = require("discord.js");
-const send = require(`${__dirname}/../util/send`);
-
 module.exports = {
 	name: "ready",
 	once: true,
 	async execute(client) {
 
-		const servers = client.guilds.cache.size
-		const users = client.guilds.cache.reduce((acc, memberCount) => acc + memberCount, 0);
+		const servers = client.guilds.cache.size;
 
 		const time = new Date();
 		const startTime = `${time.getHours()}:${time.getMinutes()}, ${time.getDate()}/${time.getMonth()}/${time.getFullYear()} UTC`;
