@@ -4,7 +4,9 @@ module.exports = {
 	name: 'messageDelete',
 	async execute(message) {
 
-		GhostPing.detector("messageDelete", message).catch(() => {});
+		GhostPing.detector("messageDelete", message).catch(() => {
+			/*  */
+		});
 
 	}
 };

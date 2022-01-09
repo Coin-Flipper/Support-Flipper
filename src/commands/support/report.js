@@ -28,8 +28,8 @@ module.exports = {
 			.setTitle(`${name}`)
 			.setDescription(`${description}`)
 			.setColor('RED')
-			.setAuthor(`${interaction.member.user.tag}`, `${interaction.member.user.displayAvatarURL()}`)
-			.setFooter(`ID: ${interaction.member.id}`)
+			.setAuthor({ name: `${interaction.member.user.tag}`, iconURL: `${interaction.member.user.displayAvatarURL()}` })
+			.setFooter({ text: `ID: ${interaction.member.id}` })
 			.setTimestamp();
 
 		const channel = client.channels.cache.get(`870595027263443005`);
