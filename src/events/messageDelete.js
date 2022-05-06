@@ -4,7 +4,7 @@ module.exports = {
 	name: 'messageDelete',
 	async execute(message) {
 
-		detector("messageDelete", message);
+		detector('messageDelete', message);
 
-	}
+	},
 };

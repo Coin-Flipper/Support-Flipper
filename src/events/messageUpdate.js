@@ -4,7 +4,7 @@ module.exports = {
 	name: 'messageUpdate',
 	async execute(oldMessage, newMessage) {
 
-		detector("messageUpdate", oldMessage, newMessage);
+		detector('messageUpdate', oldMessage, newMessage);
 
-	}
+	},
 };

@@ -1,12 +1,12 @@
 const app = require('express')();
 app.get('/', (req, res) => res.send('Hello World!'));
-app.listen(3000, () => console.log(`App listening at http://localhost:3000`));
+app.listen(3000, () => console.log('App listening at http://localhost:3000'));
 
 
 const Discord = require('discord.js');
 const client = new Discord.Client({
 	intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_EMOJIS_AND_STICKERS', 'GUILD_WEBHOOKS', 'GUILD_MEMBERS'],
-	repliedUser: false
+	repliedUser: false,
 });
 
 
